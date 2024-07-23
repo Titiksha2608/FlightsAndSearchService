@@ -1,6 +1,6 @@
-#Welcome to Flights Service
+# Welcome to Flights Service
 
-##Project Setup
+## Project Setup
 
 - clone the project on your local
 - Execute`npm install` on the same path as of your root directory of teh downloaded project
@@ -20,5 +20,5 @@
 }
 ```
 
-Once you've added your db config as listed above, go to the src folder from your terminal and execute npx sequelize db:create and then execute
-npx sequelize db:migrate
+- Once you've added your db config as listed above, go to the src folder from your terminal and execute `npx sequelize db:create` and then execute
+  `npx sequelize db:migrate`
