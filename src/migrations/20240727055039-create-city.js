@@ -1,3 +1,6 @@
+//migration table help us understand when the tables were created. what constraimts and database lebel we have added
+//whenever we have create a class or create table -up 
+//down- for removing data 
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
@@ -10,7 +13,9 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull:false,
+        unique: true
       },
       createdAt: {
         allowNull: false,
